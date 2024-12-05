@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/styles/main.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body>
+
+  <main>
+    <section class="product-card">
+      <picture class="product-card__img">
+        <source srcset="./images/image-product-mobile.jpg" media="(max-width: 640px)">
+        <img src="./images/image-product-desktop.jpg" alt="Picture of the perfume Gabrielle">
+      </picture>
+      <div class="product-card__content">
+        <p class="product-card__type">Perfume</p>
+        <h1 class="product-card__name">Gabrielle Essence Eau De Parfum</h1>
+        <p class="product-card__desc"> A floral, solar and voluptuous interpretation composed by Olivier
+          Polge,Perfumer-Creator for the House of CHANEL.</p>
+        <div class="product-card__prices">
+          <span class="product-card__prices-new">$149.99</span>
+          <span class="product-card__prices-old">$169.99</span>
+        </div>
+        <button class="product-card__shop-btn">
+          <img src="/images/icon-cart.svg" alt="cart logo for shopping button">
+          <span>Add to Cart</span>
+        </button>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/JeremDevX">JeremDevX</a>.
+    </div>
+  </main>
+
+</body>
+
+</html>
